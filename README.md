@@ -4,7 +4,7 @@ A luxury custom WordPress theme for showcasing the **World's Top 100 Swimming Po
 
 ---
 
-## 📁 Theme File Structure
+##  Theme File Structure
 
 ```
 million-dollar-pools/
@@ -31,7 +31,7 @@ million-dollar-pools/
 
 ---
 
-## 🚀 Installation on SiteGround + WordPress
+##  Installation on SiteGround + WordPress
 
 ### Step 1: Upload the Theme
 
@@ -142,7 +142,7 @@ Go to **Settings → Permalinks** and set to **"Post name"** (`/%postname%/`). S
 
 ---
 
-## 🏊 How to Add Pool Gallery Images
+## How to Add Pool Gallery Images
 
 The pool profile supports a gallery. To add gallery images:
 
@@ -156,7 +156,7 @@ For the custom field method (most reliable):
 
 ---
 
-## 💰 Affiliate Link Setup
+## Affiliate Link Setup
 
 Each pool has an individual affiliate booking link set in the sidebar meta box.
 
@@ -170,7 +170,7 @@ The booking button appears prominently in the pool profile sidebar with a gold C
 
 ---
 
-## 🎨 Customization
+##  Customization
 
 ### Colors
 The theme uses CSS custom properties. Edit `style.css` line 10–30 to change:
@@ -193,7 +193,7 @@ To change, update the Google Fonts URL in `functions.php` and the `--font-*` var
 
 ---
 
-## 📧 Newsletter Integration
+## Newsletter Integration
 
 The newsletter form submits via AJAX and stores emails in WordPress options by default.
 
@@ -204,7 +204,7 @@ To connect to Mailchimp / ConvertKit / etc.:
 
 ---
 
-## ⚡ SiteGround Performance Tips
+## SiteGround Performance Tips
 
 1. Enable **SiteGround SuperCacher** (Level 3)
 2. Enable **Cloudflare** from Site Tools
@@ -214,7 +214,7 @@ To connect to Mailchimp / ConvertKit / etc.:
 
 ---
 
-## 🔍 SEO
+## SEO
 
 The theme automatically outputs:
 - **Structured data** (Schema.org `TouristAttraction`) on each pool page
@@ -226,26 +226,10 @@ Install **Rank Math** or **Yoast** for full sitemap + meta control.
 
 ---
 
-## 📋 Taxonomy Slugs (for URL filters)
+## Taxonomy Slugs (for URL filters)
 
 Set up these taxonomy terms in **Pools → Regions** and **Pools → Pool Types**:
 
 **Regions** (slugs): `asia`, `europe`, `americas`, `middle-east`, `oceania`, `africa`
 
 **Pool Types** (slugs): `infinity`, `rooftop`, `overwater`, `natural`, `underground`, `lagoon`, `olympic`
-
----
-
-## 🛍️ Future: WooCommerce Merch
-
-When ready to add merch:
-1. Install WooCommerce
-2. The theme includes basic WooCommerce compatibility CSS
-3. Add a "Shop" page to the navigation menu
-4. WooCommerce's default templates will inherit the dark theme colors
-
----
-
-## 📞 Support
-
-Theme developed for Million Dollar Pools. For customizations, contact your developer with reference to this README.
